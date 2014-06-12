@@ -1,0 +1,46 @@
+# Input device test case configuration for parameters
+# This is just an example configuration, do not use
+
+######################
+# General parameters #
+######################
+
+# "event1 event2 event3" -> check devices /dev/input/event0, 1 and 2
+# "" -> check all devices under /dev/input
+[parameter]
+	name input_devices
+	const ""
+[end_parameter]
+
+# "event0" -> use /dev/input/event0
+# "*touchscreen" -> use the device whose name contains string 'touchscreen'
+[parameter]
+	name pointer_device
+	const "*touchscreen"
+[end_parameter]
+
+# todo: add more options later
+[parameter]
+	name scr_orientation
+	const 0
+[end_parameter]
+
+##############
+# FuTes      #
+##############
+
+[test]
+	name "Input - Enumerate devices"
+	params input_devices
+[end_test]
+
+[test]
+	name "Input - Single touch"
+	params pointer_device scr_orientation
+[end_test]
+
+[test]
+	name "Input - Multi-touch"
+	params pointer_device scr_orientation
+[end_test]
+

@@ -1,0 +1,169 @@
+blts-ofono-tests (0.1.23) unstable; urgency=low
+
+  * Fixes: BMC#17877 - Test types update in MCTS
+
+ -- Mikko Ojala <mikko.ojala@digia.com>  Wed, 03 Aug 2011 12:11:33 +0300
+
+blts-ofono-tests (0.1.22) unstable; urgency=low
+
+  * Fixes: BMC#18172 - blts-ofono enter pin fails
+  * [ Mikko Ojala ] Fixed wrong result from enter pin test case
+  * [ Jussi Saavalainen ] Fix expected value handling in call meter cases
+  * [ Jussi Saavalainen ] Remove default pin/test address from call meter cases
+
+ -- Mikko Ojala <mikko.ojala@digia.com>  Wed, 08 Jun 2011 15:34:40 +0300
+
+blts-ofono-tests (0.1.21) unstable; urgency=low
+
+  * [ Arun Ravindran ] Check call status before swapping
+
+ -- Mikko Ojala <mikko.ojala@digia.com>  Wed, 27 Apr 2011 15:17:24 +0300
+
+blts-ofono-tests (0.1.20) unstable; urgency=low
+
+  * [ Mikko Ojala ] Test for Call Waiting setting added
+  * [ Mikko Ojala ] Memory leak in data context case fixed
+  * [ Pasi Matilainen ] Test for obsolete Deregister method removed
+
+ -- Mikko Ojala <mikko.ojala@digia.com>  Thu, 14 Apr 2011 11:30:37 +0300
+
+blts-ofono-tests (0.1.19) unstable; urgency=low
+
+  * Added data context test case
+  * Added data context ping case
+  
+ -- Mikko Ojala <mikko.ojala@digia.com>  Wed, 30 Mar 2011 17:07:19 +0300
+
+blts-ofono-tests (0.1.18) unstable; urgency=low
+
+  * [ Kari Laakso ] Improved all voice call, dual call and multiparty case run
+    time instructions
+  * Version update due to packaging change.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Tue, 08 Feb 2011 15:21:24 +0200
+
+blts-ofono-tests (0.1.17) unstable; urgency=low
+
+  [ Mikko Ojala, Kari Laakso ]
+  * Added radio technology change test
+  * "--doncleanup" changed to "--cleanup" and removed mandatory environment check
+  * Improved command line help
+  * Improved all voice call, dual call and multiparty case run time instructions
+
+ -- Kari Laakso <kari.laakso@digia.com>  Thu, 20 Jan 2011 10:18:53 +0200
+
+blts-ofono-tests (0.1.16-1) unstable; urgency=low
+
+  * Debian packaging build-dependency update.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 19 Jan 2011 16:31:40 +0200
+
+blts-ofono-tests (0.1.16) unstable; urgency=low
+
+  [ Mikko Ojala ]
+  * Fixes to PIN lock and unlock cases
+  * Timeouts increased to 60 seconds in several network-facing cases
+  * "dontcleanup" flag now also affects supplementary service resets
+  * PIN Reset default configuration now matches Phonesim interface
+
+ -- Mikko Ojala <mikko.ojala@digia.com>  Mon, 17 Jan 2011 14:44:06 +0200
+
+blts-ofono-tests (0.1.15) unstable; urgency=low
+
+  * Tests.xml update
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Thu, 16 Dec 2010 11:01:55 +0200
+
+blts-ofono-tests (0.1.14) unstable; urgency=low
+
+  [ Aki Nyman, Pasi Matilainen, Kari Laakso ]
+  * Dual call cases (transfer, swap, release & answer, hold & answer) updated to work with oFono 0.33 API
+  * Incoming call cases (hangup, hangup all, remote hangup, deflect and cancel) updated to work with oFono 0.33 API
+  * Multiparty call case and private chat call case updated to work with oFono 0.33 API
+  * Deprecated property changed callback functions removed from call volume and call meter test cases
+  * Propose scan test case updated to work with oFono 0.33 API
+  * SMSC number test fixed to save and restore original SMSC number and read test values from configuration file
+  * Fixed SMS tests and added bearer support for oFono 0.33
+  * Added support for test case timeout handling via configuration file
+  * Support blts-common 0.4.0
+
+ -- Kari Laakso <kari.laakso@digia.com>  Thu, 11 Nov 2010 16:02:47 +0300
+
+blts-ofono-tests (0.1.13) unstable; urgency=low
+
+  [ Mikko Ojala ]
+  * Fixed call forwarding tests for oFono 0.31
+  * Fixed call barring tests for oFono 0.31
+  * Added modem power on and online checks to test case inits
+
+ -- Mikko Ojala <mikko.ojala@digia.com>  Thu, 28 Oct 2010 15:23:13 +0300
+
+blts-ofono-tests (0.1.12) unstable; urgency=low
+
+  [ Pasi Matilainen, Mika Niinistö, Kimmo Myllyvirta ]
+  * Add RPM packaging
+  * Fixed segfault in microphone volume test case
+  * Updated SMS cases for oFono 0.29
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Thu, 30 Sep 2010 15:14:47 +0300
+
+blts-ofono-tests (0.1.11) unstable; urgency=low
+
+  * oFono 0.28 support
+
+ -- Mikko Ojala <mikko.ojala@digia.com>  Thu, 16 Sep 2010 15:02:23 +0300
+
+blts-ofono-tests (0.1.10) unstable; urgency=low
+
+  * Multiparty call test
+  * Private chat call test
+
+ -- Mikko Ojala <mikko.ojala@digia.com>  Fri, 10 Sep 2010 14:41:12 +0300
+
+blts-ofono-tests (0.1.9) unstable; urgency=low
+
+  [ Mikko Ojala ]
+  * Call waiting test case added
+  * Propose scan test case added
+  * Supplementary services disable cases added
+  * SMSC number test
+
+ -- Mikko Ojala <mikko.ojala@digia.com>  Mon, 16 Aug 2010 17:36:33 +0300
+
+blts-ofono-tests (0.1.8) unstable; urgency=low
+
+  [ Jussi Saavalainen ]
+  * oFono call forwarding cases verify result by using oFono properties
+
+  [ Mika Niinistö ]
+  * Add modem online and modem offline test cases
+
+ -- Mika Niinistö <mika.niinisto@digia.com>  Thu, 24 Jun 2010 15:28:53 +0300
+
+blts-ofono-tests (0.1.7) unstable; urgency=low
+
+  * Fixes: NB#166290 - oFono cases fail to reset the modem state
+  * Test init and finalize now reset call and supplementary service state. This
+    should fix problems with running tests in series.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Thu, 10 Jun 2010 13:18:48 +0300
+
+blts-ofono-tests (0.1.6) unstable; urgency=low
+
+  * Initial upload for Meego (changelog summarized)
+  * Modem information query
+  * Support for running test asset with configuration file
+  * Voice call create/answer tests
+  * SMS send/receive tests
+  * Call disconnects
+  * SIM handling
+  * Dual voice call cases
+  * Call meter
+  * Call barring
+  * Call forwardings
+  * DTMF
+  * Call volume
+  * Hide caller ID
+  * Added listening for stray signals for future use
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Fri, 21 May 2010 10:20:18 +0300

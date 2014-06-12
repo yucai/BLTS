@@ -1,0 +1,75 @@
+blts-opengles2-tests (0.0.18) unstable; urgency=low
+
+  * Fixes: BMC#17877 - Test types update in MCTS
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 03 Aug 2011 12:14:14 +0300
+
+blts-opengles2-tests (0.0.17) unstable; urgency=low
+
+  * Add CSV measurement result reporting.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 16 Mar 2011 14:14:45 +0200
+
+blts-opengles2-tests (0.0.16) unstable; urgency=low
+
+  * Version update due to packaging change.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Tue, 08 Feb 2011 15:35:31 +0200
+
+blts-opengles2-tests (0.0.15-2) unstable; urgency=low
+
+  * Add armel libgles dependency to packaging.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 26 Jan 2011 14:52:38 +0200
+
+blts-opengles2-tests (0.0.15-1) unstable; urgency=low
+
+  * Debian packaging build-dependency update.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 19 Jan 2011 16:31:40 +0200
+
+blts-opengles2-tests (0.0.15) unstable; urgency=low
+
+  * Fix build with MeeGo pvr-bin-devel. Fixes: BMC#10112
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Tue, 18 Jan 2011 10:43:21 +0200
+
+blts-opengles2-tests (0.0.14) unstable; urgency=low
+
+  * Remove obsolete Min support code
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Thu, 16 Dec 2010 11:03:35 +0200
+
+blts-opengles2-tests (0.0.13) unstable; urgency=low
+
+  [ zhengkui ]
+  * Fix vertex scale issue of glesh_generate_cube().
+  * Fixes: BMC#10543
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Wed, 01 Dec 2010 17:07:11 +0200
+
+blts-opengles2-tests (0.0.12) unstable; urgency=low
+
+  [ Mika Niinistö, Kimmo Myllyvirta ]
+  * Packaging script updated.
+  * Logging updated to new common library standard.
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Tue, 16 Nov 2010 17:32:58 +0200
+
+blts-opengles2-tests (0.0.11) unstable; urgency=low
+
+  [ Kimmo Myllyvirta ]
+  * Add RPM packaging
+  * Binary and debian package name changed to "blts-opengles2-tests"
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Thu, 30 Sep 2010 15:21:59 +0300
+
+blts-opengles2-tests (0.0.10) unstable; urgency=low
+
+  [ Kimmo Myllyvirta ]
+  * Initial upload for Meego (changelog summarized)
+  * Generic, configurable, convolution filter test.
+  * Minimal composite manager (blts_minimal_compositor)
+  * Graphics benchmarks.
+
+ -- Kari Laakso <kari.laakso@digia.com>  Thu, 09 Sep 2010 14:35:38 +0300

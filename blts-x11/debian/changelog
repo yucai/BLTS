@@ -1,0 +1,48 @@
+blts-x11-tests (0.0.17) unstable; urgency=low
+
+  * Fixes: BMC#17877 - Test types update in MCTS
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 03 Aug 2011 12:30:27 +0300
+
+blts-x11-tests (0.0.16) unstable; urgency=low
+
+  * Version update due to packaging change.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Tue, 08 Feb 2011 17:51:53 +0200
+
+blts-x11-tests (0.0.15-1) unstable; urgency=low
+
+  * Debian packaging build-dependency update.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 19 Jan 2011 16:31:40 +0200
+
+blts-x11-tests (0.0.15) unstable; urgency=low
+
+  * Tests.xml update
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Thu, 16 Dec 2010 11:21:58 +0200
+
+blts-x11-tests (0.0.14) unstable; urgency=low
+
+  [ Mika Niinistö, Kimmo Myllyvirta ]
+  * Packaging script updated.
+  * Logging updated to new common library standard.
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Tue, 16 Nov 2010 18:10:15 +0200
+
+blts-x11-tests (0.0.13) unstable; urgency=low
+
+  [ Kimmo Myllyvirta ]
+  * Add RPM packaging
+  * Binary name changed to "blts-x11-tests"
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Thu, 30 Sep 2010 15:48:04 +0300
+
+blts-x11-tests (0.0.12) unstable; urgency=low
+
+  [ Kimmo Myllyvirta ]
+  * Initial upload for Meego (changelog summarized)
+  * Benchmarks for XRender (blts_xrender_bench)
+  * X11 test cases.
+
+ -- Kari Laakso <kari.laakso@digia.com>  Wed, 08 Sep 2010 15:32:01 +0300

@@ -1,0 +1,31 @@
+* Wed 03 Aug 2011 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.1.8
+- Fixes: BMC#17877 - Test types update in MCTS
+
+* Thu 17 Mar 2011 Aki Nyman <aki.nyman@digia.com> - 0.1.7
+- Stop and restart conflicting processes functionality added to configuration
+  file.
+
+* Tue 08 Feb 2011 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.1.6
+- Connman incompatibility note added to README.
+- Packaging updated.
+
+* Tue 11 Jan 2011 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.1.5
+- Trivial resource leak fix in phy lookup failure path
+
+* Thu 16 Dec 2010 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.1.4
+- Fix crash when nl80211 driver loaded but no devices present
+- [Kimmo Myllyvirta] Tests.xml update
+
+* Wed 24 Nov 2010 Aki Nyman <aki.nyman@digia.com> - 0.1.3
+- Add Establish new adhoc network test.
+- Add Join established adhoc network test.
+
+* Tue 28 Sep 2010 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.1.2
+- Add associate with WPA2-PSK AP test.
+
+* Fri 20 Aug 2010 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.1.1
+- Add associate with WEP AP test.
+- Updates to scan for specific AP and associate with open AP tests.
+
+* Mon 05 Jul 2010 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.1.0
+- Created package

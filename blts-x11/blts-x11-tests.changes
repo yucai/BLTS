@@ -1,0 +1,22 @@
+* Wed 03 Aug 2011 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.0.17
+- Fixes: BMC#17877 - Test types update in MCTS
+
+* Tue 08 Feb 2011 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.0.16
+- Version update due to packaging change.
+
+* Thu 16 Dec 2010 Kimmo Myllyvirta <kimmo.myllyvirta@digia.com> - 0.0.15
+- Remove obsolete Min support code
+
+* Tue 16 Nov 2010 Kimmo Myllyvirta <kimmo.myllyvirta@digia.com> - 0.0.14
+- Packaging script updated.
+- Logging updated to new common library standard.
+
+* Wed 30 Sep 2010 Kimmo Myllyvirta <kimmo.myllyvirta@digia.com> - 0.0.13
+- Add RPM packaging
+- Binary name changed to "blts-x11-tests"
+
+* Wed 08 Sep 2010 Kari Laakso <kari.laakso@digia.com> - 0.0.12
+- Initial upload for Meego (changelog summarized)
+- Benchmarks for XRender (blts_xrender_bench)
+- X11 test cases.
+

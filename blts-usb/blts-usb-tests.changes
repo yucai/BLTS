@@ -1,0 +1,42 @@
+* Wed 03 Aug 2011 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.0.20
+- Fixes: BMC#17877 - Test types update in MCTS
+
+* Wed 08 Jun 2011 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.0.19
+- Fixes: BMC#18224 - blts-usb build problems on Linux 2.6.39
+- Fix build warnings on Linux 2.6.39+ kernel module build.
+
+* Wed 11 May 2011 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.0.18
+- Fix build warnings on x86_64 kernel module build.
+
+* Tue 08 Feb 2011 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.0.17
+- [ Timo-Pekka Launonen ] Add timeouts and fix single IO thread failure handling
+
+* Mon 17 Jan 2011 Mika Niinisto <mika.niinisto@digia.com> - 0.0.16
+- [ Mika Niinistö ] Bugfix: When any of the endpoints fails in read / write
+  cases, the test case will fail from now on.
+- [ Kimmo Myllyvirta ] Fix build with Linux 2.6.37+
+
+* Tue 16 Dec 2010 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.0.15
+- [Kimmo Myllyvirta] Tests.xml update
+- Ensure failure when no data transfered
+- BKL removal from kernel modules for Linux 2.6.36+ support
+
+* Tue 16 Nov 2010 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.0.14
+- Packaging script updated.
+- Logging updated to new common library standard.
+
+* Thu 28 Oct 2010 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.0.13
+- Remove unused dependencies to glib and dbus-glib
+
+* Wed 29 Sep 2010 Jussi Saavalainen <jussi.saavalainen@digia.com> - 0.0.12
+- Separate platform configuration packaging
+- Add RPM packaging
+- Binary name changed to "blts-usb-tests"
+
+* Thu 02 Sep 2010 Kari Laakso <kari.laakso@digia.com> - 0.0.11
+- Initial upload for Meego (changelog summarized)
+- Support Linux 2.6.35+
+- Support for read/write simultaneously for multiple endpoints.
+- Vendor ID set as Nokia to prevent conflicts with random usb modules.
+- Support for bulk, interrupt and isochronous endpoints.
+- Configurable driver setup via test runner.

@@ -1,0 +1,114 @@
+blts-bluetooth-tests (0.2.17) unstable; urgency=low
+
+  * Fixes: BMC#17877 - Test types update in MCTS
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 03 Aug 2011 11:59:17 +0300
+
+blts-bluetooth-tests (0.2.16) unstable; urgency=low
+
+  * Fixes: BMC#17508 - blts-bluetooth fails to bind socket
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Thu, 19 May 2011 13:32:21 +0300
+
+blts-bluetooth-tests (0.2.15) unstable; urgency=low
+
+  * [ Jussi Saavalainen ] Update environment setup instructions. Fixes: BMC#10096
+  * [ Mikko Ojala ] Allow agent to be used for tracing all cases
+  * [ Mika Niinistö ] Add agent for tracing and future pairing implementation
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Thu, 14 Apr 2011 11:26:08 +0300
+
+blts-bluetooth-tests (0.2.14) unstable; urgency=low
+
+  * [ Jussi Saavalainen ] Fix LE Scan case build
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 30 Mar 2011 16:00:25 +0300
+
+blts-bluetooth-tests (0.2.14) unstable; urgency=low
+
+  * [ Jussi Saavalainen ] Fix LE Scan case build
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 30 Mar 2011 16:00:25 +0300
+
+blts-bluetooth-tests (0.2.13) unstable; urgency=low
+
+  * [ Jussi Saavalainen ] Fix LE build on mainline Bluez 4.89
+  * [ Jussi Saavalainen ] Allow LE advertising case use as LE scan pair
+  * [ Jussi Saavalainen ] Add basic LE data transmit/receive cases
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Mon, 14 Mar 2011 17:25:59 +0200
+
+blts-bluetooth-tests (0.2.12) unstable; urgency=low
+
+  * [ Mika Niinistö ] Add HCI tracer to remove hcidump dependency
+  * [ Kimmo Myllyvirta ] Add basic Bluetooth LE functional tests
+  * [ Jussi Saavalainen ] Make LE compile optional to support old Bluez versions
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Thu, 24 Feb 2011 11:48:18 +0200
+
+blts-bluetooth-tests (0.2.11) unstable; urgency=low
+
+  * Version update due to packaging change.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Tue, 08 Feb 2011 14:49:49 +0200
+
+blts-bluetooth-tests (0.2.10-1) unstable; urgency=low
+
+  * Debian packaging build-dependency update.
+
+ -- Jussi Saavalainen <jussi.saavalainen@digia.com>  Wed, 19 Jan 2011 16:31:40 +0200
+
+blts-bluetooth-tests (0.2.10) unstable; urgency=low
+
+  * Remove obsolete Min support code
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Thu, 16 Dec 2010 10:54:36 +0200
+
+blts-bluetooth-tests (0.2.9) unstable; urgency=low
+
+  [ Mika Niinistö, Aki Nyman, Kimmo Myllyvirta ]
+  * Use correct logging macros and funcs
+  * Packaging script updates
+  * Some bug fixes according to review comments (wake up other DUT code
+    modified, xml fixed, memset 0 for info compare case)
+  * HCI controller info test case fixed, sends/receives END -mark when
+    verification is done
+  * Connected link info sending (non-thread version) and AFH map verification
+    modified, and some timeouts fixed
+  * Some testcase timeouts changed
+  * Handle short timestamps from hcidump
+
+ -- Aki Nyman <aki.nyman@digia.com>  Tue, 16 Nov 2010 16:55:43 +0200
+
+blts-bluetooth-tests (0.2.8) unstable; urgency=low
+
+  [ Aki Nyman ]
+  * Test cases modified to use common library functions
+  * Add configuration file support
+
+ -- Aki Nyman <aki.nyman@digia.com>  Wed, 6 Oct 2010 15:00:44 +0300
+
+blts-bluetooth-tests (0.2.7) unstable; urgency=low
+
+  [ Mika Niinistö ]
+  * Add RPM packaging
+  * Binary name changed to "blts-bluetooth-tests"
+
+ -- Kimmo Myllyvirta <kimmo.myllyvirta@digia.com>  Thu, 30 Sep 2010 13:56:44 +0300
+
+blts-bluetooth-tests (0.2.6) unstable; urgency=low
+
+  [ Jussi Saavalainen & Aki Nyman ]
+  * Initial upload for Meego (changelog summarized)
+  * Pairing test.
+  * Connection information exchange test.
+  * HCI Change/Verify Name and HCI Change/Verify Class tests.
+  * HCI Reset Connection test.
+  * Incoming connection sequence audit.
+  * HCI Transfer/Receive ACL data packet tests.
+  * Driver and Bluez userspace check.
+  * RFComm connect and ping-pong tests.
+  * HCI link-only connect test.
+  * L2CAP connect and ping-pong tests.
+
+ -- Kari Laakso <kari.laakso@digia.com>  Tue, 31 Aug 2010 16:05:52 +0300
